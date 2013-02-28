@@ -50,7 +50,7 @@ class ParamManager{
                 if (self::_identifyInvalid($temp)){
                     $result = false;
                 } else {
-                    $result = self""_convertParam($temp);
+                    $result = self::_convertParam($temp);
                 }
                 break;
             case 'REQUEST':
@@ -91,4 +91,4 @@ class ParamManager{
 
         return $str;
     }
-}
+}  
